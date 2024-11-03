@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../github.io/Jmoore.github.io"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"github-enterprise.uri": "https://github.com/jdmooreo7"
+	}
+}
