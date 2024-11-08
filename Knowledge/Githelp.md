@@ -7,5 +7,5 @@
 - deletes remote-tracking branch: `git branch -d origin<branchname> --remote`
   - 'D' v 'd' in the above is where the big D forces the delete
 
-- How to 'fetch' and 'merge' your branch with the remote repository: `git pull`'
-- 
+- How to 'fetch' and 'merge' your branch with the remote repository: `git pull`
+- How to add files to a git repository `git add <filename>` to add all files `git add .`
