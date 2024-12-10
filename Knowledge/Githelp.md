@@ -27,6 +27,7 @@
 - **`git push origin <branch-name>`**: Push commits from the local branch to the remote repository.
 - **`git pull origin <branch-name>`**: Fetch and merge changes from the remote branch to your local branch.
 - **`git fetch`**: Download objects and refs from another repository without merging.
+- **`git fetch --prune`**: Removes any references to branches that have been deleted from the remote.
 - **`git remote -v`**: List all configured remotes and their URLs.
 - **`git remote remove <name>`**: Remove a remote from your configuration.
 
