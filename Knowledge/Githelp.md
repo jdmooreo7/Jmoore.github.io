@@ -1,4 +1,5 @@
 # Essential Git Commands
+[git book](https://git-scm.com/book/en/v2)
 
 ## General
 - **`git --version`**: show current git version
