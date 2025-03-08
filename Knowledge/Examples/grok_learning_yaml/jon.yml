@@ -1,4 +1,4 @@
-yaml
+#yaml
 
 student:
   name: Jon
@@ -6,6 +6,6 @@ student:
   favorite_subject: 
     - Math
     - Economics # great stuff
-  bio: >
-    Jon is a student at Grok Learning. He is learning YAML.
-    He is also learning Python.
+  bio: |
+    Jon is a student at Grok Learning. He is a great student.
+    He is learning YAML.
