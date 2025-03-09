@@ -4,8 +4,10 @@ student:
   name: Jon
   age: 43
   favorite_subject: 
-    - Math
+    - Psychology
     - Economics # great stuff
+    - Strategic Management
   bio: |
     Jon is a student at Grok Learning. He is a great student.
     He is learning YAML.
+  email: jmoore.2203@gmail.com

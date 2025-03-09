@@ -50,6 +50,7 @@ fruits:
 ### Combining Lists and Key-Value Pairs
 
 You can mix these together for more complex structures.
+
 ```yml
 person:
   name: Alice
@@ -57,7 +58,9 @@ person:
     - Reading
     - Hiking
     - Cooking
+
 ```
+
 `hobbies` is a list nested under `person`.
 
 ## Lesson 2 More YAML features
@@ -93,6 +96,7 @@ student:
     Keep exploring and never
     stop asking questions.
 ```
+
 - `bio` keeps the line breaks.
 - `motto` becomes "Keep exploring and never stop asking questions." (one line).
 
