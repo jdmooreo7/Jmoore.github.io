@@ -28,11 +28,11 @@
 - **`git branch <branch-name>`**: Create a new branch with the specified name.
 - **`git checkout <branch-name>`**: Switch to the specified branch.
 - **`git checkout -b <branch-name>`**: Create and switch to a new branch.
+- **`git push orgin <new branch-name>`**: pushes new branch to remote repository
 - **`git merge <branch-name>`**: Merge the specified branch into the current branch.
 
 ## Remote Repositories
 
-- **`git push origin <branch-name>`**: Push commits from the local branch to the remote repository.
 - **`git pull origin <branch-name>`**: Fetch and merge changes from the remote branch to your local branch.
 - **`git fetch`**: Download objects and refs from another repository without merging.
 - **`git fetch --prune`**: Removes any references to branches that have been deleted from the remote.
