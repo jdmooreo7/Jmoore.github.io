@@ -29,7 +29,7 @@
 - **`git branch -u origin <branch-name>`**: The `-u` flag sets the remote branch as the upstream branch for the local branch, which is useful for future pushes and pulls.
 - **`git checkout <branch-name>`**: Switch to the specified branch.
 - **`git checkout -b <branch-name>`**: This command creates a new branch and switches to it immediately.
-- **`git push orgin <new branch-name>`**: pushes new branch to remote repository
+- **`git push origin <new branch-name>`**: pushes new branch to remote repository
 - **`git merge <branch-name>`**: Merge the specified branch into the current branch.
 
 ## Remote Repositories
