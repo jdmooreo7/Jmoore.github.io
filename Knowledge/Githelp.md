@@ -25,6 +25,7 @@
 ## Branching and Merging
 
 - **`git branch`**: List all branches in the repository.
+- **`git branch -vv`**: list all your local branches and check which ones are no longer tracking a valid remote branch.
 - **`git branch <branch-name>`**: Create a new branch with the specified name.
 - **`git branch -u origin <branch-name>`**: The `-u` flag sets the remote branch as the upstream branch for the local branch, which is useful for future pushes and pulls.
 - **`git checkout <branch-name>`**: Switch to the specified branch.
