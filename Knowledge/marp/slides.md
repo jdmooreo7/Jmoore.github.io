@@ -3,7 +3,6 @@
 marp: true
 theme: default
 description: "Presentation generated from repository contents"
-const { comments } = marpit.render(`
 paginate: true
 
 ---
