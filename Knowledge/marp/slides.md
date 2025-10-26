@@ -1,15 +1,23 @@
 ---
+
 marp: true
 theme: default
-paginate: true
 description: "Presentation generated from repository contents"
+const { comments } = marpit.render(`
+paginate: true
+
 ---
 
+<!-- backgroundImage: "linear-gradient(to bottom, #222222ff, #000000ff)" -->
+<!-- backgroundColor: black  -->
+<!-- color: white -->
 <!-- _class: lead -->
 
-# Jmoore.github.io
+# Presentation as code
+<br>
+Using Markdown to build a presentation
 
-_Automatically generated overview — slides created from the repository structure_
+<img src="otel-diagram.svg" style="position: absolute; top: 10px; right: 10px; width: 45%; height: auto;" alt="OpenTelemetry Diagram" />
 
 ---
 
@@ -37,7 +45,8 @@ Files included (high level):
 - `clihelp.md`, `docker.md`, `Githelp.md`, `vscodehelp.md`, `yaml.md`
 - `python.md`, `vectorsearch.md`, `mkdocsHelp.md`, `Markdownhelp.md`
 
-Notes: this folder holds short how-tos and reference notes useful for quick lookup.
+<!-- Notes:
+This folder holds short how-tos and reference notes useful for quick lookup. -->
 
 ---
 
@@ -71,7 +80,8 @@ Notes: this folder holds short how-tos and reference notes useful for quick look
 2. Open `slides.md`.
 3. Use the Marp preview (toggle preview) to view slides live.
 
-Speaker notes: Marp preview supports themes and presenter mode.
+<!--Notes:
+Marp preview supports themes and presenter mode.-->
 
 ---
 
@@ -84,9 +94,9 @@ Speaker notes: Marp preview supports themes and presenter mode.
 
 ## Next steps & suggestions
 
-- Add images/screenshots for richer slides.
-- Add per-topic slides that summarize each `Knowledge/*.md` file.
-- Export PDF for sharing.
+[ ] Add images/screenshots for richer slides.
+[ ] Add per-topic slides that summarize each `Knowledge/*.md` file.
+[ ] Export PDF for sharing.
 
 ---
 

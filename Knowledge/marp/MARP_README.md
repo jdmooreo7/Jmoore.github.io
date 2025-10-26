@@ -1,8 +1,64 @@
-# Using the Marp for VS Code extension
+# Using Marp VS Code extension
 
-This short README explains how to preview and export the `slides.md` deck in this repository using the Marp extension for Visual Studio Code.
+This short README explains how to use, key commands and ways to export slides using the Marp extension for Visual Studio Code.
+
+## Helpful links
+
+* [marpit.marp.app](https://marpit.marp.app/) 
+
+## Directives
+
+[**Directives**](https://marpit.marp.app/directives) allow you to format your slides in an array of ways.  The below list are a few directives and options to use
+
+### theme
+
+```markdown
+theme: default 
+theme: gaia
+theme: uncover
+```
+
+### style
+A directive that allows you to embed CSS directly within the marp file
+```markdown
+        ---
+        theme: base-theme
+        style: |
+          section {
+            background-color: #ccc;
+          }
+        ---
+```
+
+### Local Directives
+
+```markdown
+<!-- backgroundColor: aqua -->
+```
+
+## Marp Configuration
+
+### Emojis
+
+Out of the box, MARP supports Emoji shortcuts.  For example
+* 😰 :cold_sweat: 
+* 🚀 :rocket:
+
+An expansive list can be found [here](https://gist.github.com/rxaviers/7360908) 
+
+### Comments
+
+To add comments to slides add the below line at the top of your file 
+
+```javascript 
+const { comments } = marpit.render(`
+)
+```
+>The trailing **)** Should be placed at the end of the file, or the last slide where you have comments
 
 ## Preview in VS Code
+
+>**Markdown Preview Enhanced** plugin does not work to view marp formatting, this will need disabled or when previewing select default viewer
 
 1. Install the "Marp for VS Code" extension (search Extensions marketplace in VS Code).
 2. Open this repository in VS Code and open `slides.md`.
@@ -42,10 +98,4 @@ Notes:
 
 - If slides don't render, ensure front-matter contains `marp: true`.
 - If images or assets are missing, use relative paths from the `slides.md` location.
-
-## Next steps
-- If you want, I can:
-  - Generate a PDF export now.
-  - Expand the deck with one slide per file in `Knowledge/`.
-  - Add speaker notes extracted from the `.md` files.
 
